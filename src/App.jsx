@@ -2,21 +2,21 @@ import { QRCodeSVG } from "qrcode.react";
 
 const invitationData = {
   couple: {
-    groomName: "Groom Name",
-    brideName: "Bride Name",
+    groomName: "Lingaganpathi R",
+    brideName: "Priyadarshini V",
     groomPhoto: "/groom.jpg",
     bridePhoto: "/bride.jpg",
-    groomParents: "Son of Mr. Groom Father & Mrs. Groom Mother",
-    brideParents: "Daughter of Mr. Bride Father & Mrs. Bride Mother",
+    groomParents: "Son of Mr. Rajendiran G (Rtd BSNL) & Mrs. Manjula R",
+    brideParents: "Daughter of Mr. Ventakesan R (Rtd CISF) & Mrs. Navaneetham V",
   },
   event: {
-    title: "Wedding Invitation",
+    title: "Engagement Invitation",
     subtitle: "Together with their families, invite you to celebrate their special day",
-    date: "Sunday, 25 August 2026",
-    time: "10:30 AM onwards",
-    venueName: "Sri Lakshmi Convention Hall",
-    address: "123 Celebration Street, Chennai, Tamil Nadu 600001",
-    mapsUrl: "https://maps.google.com/?q=Sri+Lakshmi+Convention+Hall+Chennai",
+    date: "Friday, 1st May 2026",
+    time: "12:00 PM onwards",
+    venueName: "Anandan Thirumana Mandapam, Odugathur",
+    address: "Anandan Thirumana Mandapam, Odugathur, Vellore, Tamil Nadu - 632103",
+    mapsUrl: "https://maps.app.goo.gl/PoaqyCYkPbo6SmWD6",
   },
 };
 
