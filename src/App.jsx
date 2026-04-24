@@ -2,7 +2,7 @@ import { QRCodeSVG } from "qrcode.react";
 
 const invitationData = {
   couple: {
-    groomName: "Lingaganpathi R",
+    groomName: "Lingaganapathi R",
     brideName: "Priyadarshini V",
     groomPhoto: "/groom.jpg",
     bridePhoto: "/bride.jpg",
