@@ -15,7 +15,7 @@ const invitationData = {
     rdate: "Tuesday, 23rd June 2026",
     rtime: "06:00 PM onwards",
     mdate: "Wednesday, 24th June 2026",
-    mtime: "06:00 AM - 07:00 AM",
+    mtime: "06:00 AM - 07:30 AM",
     venueName: "GS Mahal A/C, Arni",
     address: "GS Mahal A/C, Nadukuppam, Arni, Tamil Nadu - 632301",
     mapsUrl: "https://maps.app.goo.gl/oxRV2HpfRN9kqWVq7",
