@@ -10,13 +10,15 @@ const invitationData = {
     brideParents: "Daughter of Mr. Ventakesan R (Rtd CISF) & Mrs. Navaneetham V",
   },
   event: {
-    title: "Engagement Invitation",
+    title: "Wedding Invitation",
     subtitle: "Together with their families, invite you to celebrate their special day",
-    date: "Friday, 1st May 2026",
-    time: "12:00 PM onwards",
-    venueName: "Anandan Thirumana Mandapam, Odugathur",
-    address: "Anandan Thirumana Mandapam, Odugathur, Vellore, Tamil Nadu - 632103",
-    mapsUrl: "https://maps.app.goo.gl/PoaqyCYkPbo6SmWD6",
+    rdate: "Tuesday, 23rd June 2026",
+    rtime: "06:00 PM onwards",
+    mdate: "Wednesday, 24th June 2026",
+    mtime: "06:00 AM - 07:00 AM",
+    venueName: "GS Mahal A/C, Arni",
+    address: "GS Mahal A/C, Nadukuppam, Arni, Tamil Nadu - 632301",
+    mapsUrl: "https://maps.app.goo.gl/oxRV2HpfRN9kqWVq7",
   },
 };
 
@@ -75,11 +77,21 @@ export default function App() {
 
         <section className="details-grid">
           <div className="card detail-card">
+            <SectionTitle>Reception</SectionTitle>
             <SectionTitle>Date & Time</SectionTitle>
-            <p className="detail-line">{event.date}</p>
-            <p className="detail-line">{event.time}</p>
+            <p className="detail-line">{event.rdate}</p>
+            <p className="detail-line">{event.rtime}</p>
           </div>
 
+          <div className="card detail-card">
+            <SectionTitle>Muhurtham</SectionTitle>
+            <SectionTitle>Date & Time</SectionTitle>
+            <p className="detail-line">{event.mdate}</p>
+            <p className="detail-line">{event.mtime}</p>
+          </div>
+        </section>
+
+        <section className="card qr-card">
           <div className="card detail-card">
             <SectionTitle>Venue</SectionTitle>
             <p className="venue-name">{event.venueName}</p>
